@@ -1054,7 +1054,16 @@ ul.teamwork-list {
   margin-left: 93px;
 }
 
-
+.our-social-link {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 
 .you-email {
   width: 358px;
