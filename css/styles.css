@@ -1046,6 +1046,72 @@ ul.teamwork-list {
   cursor: pointer;
 }
 
+/* Подписка телеграм*/
+
+.form-footer {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 93px;
+}
+
+.you-email {
+  width: 358px;
+  height: 50px;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: var(--footer-background-color);
+  color: var(--massive-text-color);
+}
+
+.button-subscribe-container {
+  display: inline-flex;
+
+  text-align: center;
+}
+
+.button-subscribe {
+  display: inline-flex;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  min-width: 210px;
+  height: 50px;
+
+  border-radius: 4px;
+  margin-left: 12px;
+  padding-top: 10px;
+
+  padding-bottom: 10px;
+  padding-left: 29px;
+  color: var(--white-bg-color);
+  background-color: var(--color-forces-color);
+  border-color: transparent;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-subscribe:focus-within,
+.button-subscribe:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-telegram {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
 .form {
   display: block;
   margin-left: 40px;
