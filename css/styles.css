@@ -1272,7 +1272,7 @@ color: #FFFFFF;
 .form-checkbox:focus:checked + .icon-ok-checbox {
   background: var(--color-forces-color);
   border-color: var(--color-forces-color);
-  background-image: url(../img/icon-policu-ok/okpolicy.svg);
+  background-image: url(./img/sumbo.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
