@@ -1272,7 +1272,7 @@ color: #FFFFFF;
 .form-checkbox:focus:checked + .icon-ok-checbox {
   background: var(--color-forces-color);
   border-color: var(--color-forces-color);
-  background-image: url(../img/symbo.svg);
+  background-image: url(../img/check.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1285,7 +1285,7 @@ color: #FFFFFF;
 
 .icon-ok-checbox {
   margin-right: 8px;
-  background-image: url(../img/symbo.svg);
+  background-image: url(../img/check.svg);
   display: inline-block;
   border: 2px solid black;
   width: 16px;
