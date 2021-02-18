@@ -1258,9 +1258,10 @@ color: #FFFFFF;
 
 .form-checkbox:checked + .icon-ok-checbox,
 .form-checkbox:focus:checked + .icon-ok-checbox::before {
-  background-image: url(../img/check.svg);
+  
   background: var(--color-forces-color);
   border-color: var(--color-forces-color);
+  background-image: url(../img/check.svg);
   content: '';
   background-size: contain;
   background-repeat: no-repeat;
