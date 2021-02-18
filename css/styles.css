@@ -1275,7 +1275,7 @@ color: #FFFFFF;
 .icon-ok-checbox {
   content: '';
   margin-right: 8px;
-  background-image: url(../img/check.svg);
+  
   display: inline-block;
   border: 2px solid black;
   width: 16px;
